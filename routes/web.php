@@ -23,3 +23,6 @@ Route::get('/retro', function () {
 Route::get('/hello', function () {
     return view('hello');
 });
+Route::get('/resume', function () {
+    return view('resume');
+});
