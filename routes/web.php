@@ -26,3 +26,6 @@ Route::get('/hello', function () {
 Route::get('/resume', function () {
     return view('resume');
 });
+Route::get('/lnew', function () {
+    return view('lnew');
+});
